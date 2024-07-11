@@ -1,6 +1,6 @@
 # Artifact of NDSS25 Submission
 
-Artifact of ICSE25 Submission: Boosting Binary Analysis with RAG-Augmented Large Language Models
+Artifact of NDSS25 Submission: Boosting Binary Analysis with RAG-Augmented Large Language Models
 
 This artifact repo consists of the following two parts. For each part, please refer to the detailed README file under each folder:
 
