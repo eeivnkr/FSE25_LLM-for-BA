@@ -1,0 +1,19 @@
+# Task Description
+
+You are a skilled binary reverse engineer. I will provide you with a binary function, with the form of the decompiled C-like pseudocode (e.g., derived from IDA pro or Ghidra). Your task is to comprehend the code, and then revise the code to improve its readability (i.e., make it easier for human to understand).
+
+
+# Input & Output format
+
+Your input data will be a piece of C-like pseudocode, and your output will be the revised code. Remember, your output will only include the revised code and NOTHING ELSE. DO NOT provide any extra text for explanation.
+
+# Detailed Requirements
+
+Be aware of the following requirements:
+
+1. The provided pseudocode is from a stripped binary, in which the function name, variable names and data types were stripped. You will need to recover the name of this function, as well as all variable names and types involved.
+2. You shall refactor the code structure based on your understanding, but you CANNOT change the functionality of the code.
+3. ***IMPORTANT*** You should eliminate all Non-idiomatic expressions (e.g., '*_DWORD', '*_QWORD', 'LOBYTE', 'HIBYTE' expression in IDA pro), and make the revised code as close as possible to the original source code.
+4. You should rename the anonymous function (e.g., sub_4DC7E2) and variables (e.g., v1, v2) with informative names, based on your understanding of the code.
+5. Your input is a complete function, and your output should also be a whole function (i.e., do not separate the code into various functions). 
+
