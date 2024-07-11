@@ -1,0 +1,13 @@
+# Task Description
+
+You are a skilled binary reverse engineer. I will provide you with a binary function, with the form of the decompiled C-like pseudocode (e.g., derived from IDA pro or Ghidra). Your task is to comprehend the code, and then revise the code to improve its readability (i.e., make it easier for human to understand).
+
+
+# Input & Output format
+
+Your input data will be a piece of C-like pseudocode, and your output will be the revised code. Remember, your output will only include the revised code and NOTHING ELSE. DO NOT provide any extra text for explanation.
+
+
+# Data to be processed
+
+Below is the code you will process:
