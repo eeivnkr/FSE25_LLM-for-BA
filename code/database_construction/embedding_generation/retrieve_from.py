@@ -27,8 +27,8 @@ args = parse_args()
 
 MAX_TOKEN_LEN = 1024
 
-tokenizer = RobertaTokenizer.from_pretrained("/data/home/pengfeijing/LLM_for_BA/code_similarity/unixcoder-base-nine/unixcoder-base-nine", model_max_length=MAX_TOKEN_LEN)
-model = RobertaModel.from_pretrained("/data/home/pengfeijing/LLM_for_BA/code_similarity/unixcoder-base-nine/unixcoder-base-nine")
+tokenizer = RobertaTokenizer.from_pretrained("./unixcoder-base-nine/unixcoder-base-nine", model_max_length=MAX_TOKEN_LEN)
+model = RobertaModel.from_pretrained("./unixcoder-base-nine/unixcoder-base-nine")
 
 with open(args.data_path, 'r', errors='ignore') as file:
     full_gt_json = json.load(file)
